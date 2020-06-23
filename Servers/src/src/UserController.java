@@ -10,7 +10,7 @@ public class UserController {
 		return id;
 	}
 	public void setId(int id) {
-		this.id = id;
+		this.id = id + 10;
 	}
 	public String getUsername() {
 		return Username;
